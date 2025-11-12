@@ -1,0 +1,135 @@
+import { Course } from '../types/course'
+
+export const availableCourses: Course[] = [
+  {
+    id: '1',
+    code: 'CS3048',
+    title: 'Human and Computer Interactions',
+    credits: 3,
+    professor: 'David Sturman',
+    schedule: 'Mon, Wed 10:00-11:30',
+    location: 'Room 201',
+    availableSpots: 8,
+    totalSpots: 25,
+    department: 'Computer Science',
+    description: 'An introduction to the design and evaluation of human-computer interfaces, focusing on usability principles and user experience design.'
+  },
+  {
+    id: '2',
+    code: 'CS2071',
+    title: 'Languages and Data Structures',
+    credits: 4,
+    professor: 'Georgi Stojanov',
+    schedule: 'Tue, Thu 14:00-15:30',
+    location: 'Room 305',
+    availableSpots: 5,
+    totalSpots: 20,
+    department: 'Computer Science',
+    description: 'Study of fundamental data structures and programming language concepts, including arrays, linked lists, trees, and algorithms.'
+  },
+  {
+    id: '3',
+    code: 'MA1025',
+    title: 'Pre-Calculus',
+    credits: 3,
+    professor: 'Ruth Corran',
+    schedule: 'Mon 13:00-16:00',
+    location: 'Room 501',
+    availableSpots: 12,
+    totalSpots: 18,
+    department: 'Mathematics',
+    description: 'Preparation for calculus covering functions, trigonometry, exponential and logarithmic functions, and analytic geometry.'
+  },
+  {
+    id: '4',
+    code: 'HIST 1001',
+    title: 'Introduction to European History',
+    credits: 3,
+    professor: 'David Sturman',
+    schedule: 'Wed, Fri 11:00-12:30',
+    location: 'Room 102',
+    availableSpots: 3,
+    totalSpots: 22,
+    department: 'History',
+    description: 'A comprehensive survey of European history from the Renaissance to the present day, focusing on major political, social, and cultural developments.'
+  },
+  {
+    id: '5',
+    code: 'FREN 2001',
+    title: 'Advanced French Language',
+    credits: 3,
+    professor: 'Marco Pascucci',
+    schedule: 'Tue, Thu 09:00-10:30',
+    location: 'Room 401',
+    availableSpots: 15,
+    totalSpots: 30,
+    department: 'French Studies',
+    description: 'Advanced study of French grammar, composition, and conversation for students with intermediate proficiency.'
+  },
+  {
+    id: '6',
+    code: 'ART 1501',
+    title: 'Modern Art in Paris',
+    credits: 3,
+    professor: 'Georgi Stojanov',
+    schedule: 'Mon, Wed 15:00-16:30',
+    location: 'Studio A',
+    availableSpots: 7,
+    totalSpots: 20,
+    department: 'Art History',
+    description: 'Exploration of modern art movements in Paris, with visits to major museums and galleries throughout the city.'
+  },
+  {
+    id: '7',
+    code: 'PHIL 2101',
+    title: 'Existentialism and Modern Thought',
+    credits: 3,
+    professor: 'Marco Pascucci',
+    schedule: 'Tue 13:00-16:00',
+    location: 'Room 301',
+    availableSpots: 10,
+    totalSpots: 25,
+    department: 'Philosophy',
+    description: 'An examination of existentialist philosophy through the works of Sartre, Camus, and other key thinkers.'
+  },
+  {
+    id: '8',
+    code: 'ECON 3001',
+    title: 'International Economics',
+    credits: 3,
+    professor: 'David Sturman',
+    schedule: 'Mon, Wed, Fri 10:00-11:00',
+    location: 'Room 401',
+    availableSpots: 20,
+    totalSpots: 35,
+    department: 'Economics',
+    description: 'Analysis of international trade, finance, and economic policy in a globalized world.'
+  },
+  {
+    id: '9',
+    code: 'LIT 2201',
+    title: 'Paris in Literature',
+    credits: 3,
+    professor: 'Georgi Stojanov',
+    schedule: 'Thu 14:00-17:00',
+    location: 'Room 205',
+    availableSpots: 6,
+    totalSpots: 22,
+    department: 'Literature',
+    description: 'Study of how Paris has been represented in literature from the 19th century to contemporary works.'
+  },
+  {
+    id: '10',
+    code: 'POL 2501',
+    title: 'European Union Politics',
+    credits: 3,
+    professor: 'Marco Pascucci',
+    schedule: 'Wed 18:00-21:00',
+    location: 'Room 301',
+    availableSpots: 4,
+    totalSpots: 18,
+    department: 'Political Science',
+    description: 'Comprehensive study of the European Union\'s institutions, policies, and political dynamics.'
+  }
+]
+
