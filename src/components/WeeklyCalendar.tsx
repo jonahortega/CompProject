@@ -1,5 +1,5 @@
 import { RegisteredCourse } from '../types/course'
-import { buildWeeklySchedule, timeToMinutes, minutesToTime } from '../utils/scheduleParser'
+import { buildWeeklySchedule, timeToMinutes } from '../utils/scheduleParser'
 
 interface WeeklyCalendarProps {
   courses: RegisteredCourse[]
@@ -90,7 +90,7 @@ const WeeklyCalendar = ({ courses }: WeeklyCalendarProps) => {
                 </div>
 
                 {/* Day columns */}
-                {weeklySchedule.map((daySchedule, dayIndex) => (
+                {weeklySchedule.map((daySchedule) => (
                   <div key={daySchedule.day} className="relative border-r border-gray-200 last:border-r-0">
                     {/* Time grid lines */}
                     {timeSlots.map((time) => (
